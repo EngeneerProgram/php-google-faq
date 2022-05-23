@@ -9,7 +9,7 @@ img {
 }
 
 .left>img {
-    width: 100px;
+    width: 120px;
 }
 
 .left>h6 {
@@ -33,7 +33,7 @@ nav {
     padding-top: 0;
     margin-bottom: 15px;
     position: absolute;
-    top: 55px;
+    top: 70px;
     left: -30px;
 }
 
@@ -43,4 +43,13 @@ li {
 
 li a {
     text-decoration: none;
+    color: grey;
+}
+
+.container {
+    line-height: 28px;
+}
+
+span {
+    color: rgb(62, 62, 226);
 }
