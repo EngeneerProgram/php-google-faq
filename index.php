@@ -54,6 +54,7 @@ $web_google =  [
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<link rel="stylesheet" href="//use.fontawesome.com/releases/v5.0.7/css/all.css">
 <link rel="stylesheet" href="./assets/style/style.css">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
     <title>Document</title>
@@ -115,9 +116,10 @@ $web_google =  [
 </main>
 
 <footer>
-    <div class="container">
-        <div class="sinistra">
-            <ul class="list">
+    <div class="container-fluid bg-light">
+    <div class="container  d-flex justify-content-between align-items-center">
+        <div class="sinistra d-flex">
+            <ul class="list d-flex">
                 <li>
                     <a href="#">Google</a>
                 </li>
@@ -133,11 +135,15 @@ $web_google =  [
             </ul>
         </div>
 
-        <div class="destra">
-            <select name="Lingua" id="input-select">
-                <option value="Italiano"></option>
+        <div class="destra d-flex">
+        <img class="globe" src="./assets/img/globe.png" alt="">
+            
+            <select class="input" name="Lingua" id="input-select">
+                <option  value="Italiano">Italiano</option>
             </select>
         </div>
+    </div>
+
     </div>
 </footer>
     
