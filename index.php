@@ -50,3 +50,54 @@ $web_google =  [
 
 
 ?>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="./assets/style/style.css">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>Document</title>
+</head>
+<body>
+
+<header>
+<div class="logo d-flex justify-content-between align-items-center ">
+   <div class="left d-flex align-items-center">
+        <img class="logo_google" src="./assets/img/google1.png" alt="">
+        <h6>Privacy e termini</h6>
+   </div>
+
+   <div class="right d-flex">
+       <img class="size" src="./assets/img/dots.png" alt="">
+       <img class="size" src="./assets/img/user.png" alt="">
+   </div>
+</div>
+
+<nav>
+    <ul class="menu d-flex">
+        <li>
+            <a href="#">Introduzione</a>
+        </li>
+        <li>
+            <a href="#">Norme sulla privacy</a>
+        </li>
+        <li>
+            <a href="#">Termini di servizio</a>
+        </li>
+        <li>
+            <a href="#">Tecnologie</a>
+        </li>
+        <li>
+            <a class="evidenziato" href="#">Domande Frequenti</a>
+        </li>
+    </ul>
+</nav>
+
+
+
+</header>
+
+<hr>
+    
+</body>
+</html>

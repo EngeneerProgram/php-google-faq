@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    cursor: pointer;
+}
+
+.left>img {
+    width: 100px;
+}
+
+.left>h6 {
+    color: grey;
+}
+
+.right>img {
+    width: 40px;
+}
+
+.menu {
+    list-style: none;
+}
+
+header {
+    padding-top: 0;
+    position: relative;
+}
+
+nav {
+    padding-top: 0;
+    margin-bottom: 15px;
+    position: absolute;
+    top: 55px;
+    left: -30px;
+}
+
+li {
+    margin: 10px;
+}
+
+li a {
+    text-decoration: none;
+}
